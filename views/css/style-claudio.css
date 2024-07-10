@@ -1,0 +1,156 @@
+
+/* nav */
+
+@media (min-width: 720px) {
+  .navbar {
+    height: 75px;
+   }
+}
+.navbar-toggler-icon {
+  background-color: #1B6B85 !important;
+}
+.navbar a {
+ color: #1B6B85;
+ font-weight: 700;
+}
+.navbar a:hover {
+  color: #154352;
+ }
+.logo {
+  width: 120px;
+}
+
+/* varios */ 
+h1 {
+  color: #F35E29;
+  font-weight: 800 !important;
+}
+
+h2 {
+  color: #F35E29;
+  font-weight: 800 !important;
+}
+h3 {
+  color: #1B6B85;
+  font-weight: 700 !important;
+}
+
+.titulo-h1 {
+  padding-top: 15%;
+  text-align: left;
+}
+
+.wrapper, #nosotros {
+  /* background: url("https://images.unsplash.com/photo-1465146633011-14f8e0781093?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3450&q=80"); */
+  background: url("../image/fondo-3.png");
+  background-color: #BCE4FA;
+  width: 100%;
+  height: 92vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  perspective: 100px;
+  perspective-origin: 100% 100%;
+  animation: animation 125s linear infinite;
+  margin: 0px;
+  border: 0px;
+}
+.wrapper p {
+  color: #1B6B85;
+  font-weight: 600;
+  font-size: 1.35em;
+}
+
+#nosotros {
+  height: auto;
+}
+#nosotros p {
+  font-weight: 600;
+}
+
+@keyframes animation {
+   100%{
+    background-position: -1950px 4997px;
+  }
+}
+
+.img-responsive {
+  width: 85%;
+}
+
+.hero-img {
+  animation-name: bouncing;
+  animation-duration: 5s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  margin: 100px auto;
+  text-align: right;
+}
+
+@keyframes bouncing {
+  0%, 100% {
+    transform: translateY(0);
+    animation-timing-function: ease-in;
+  }
+  50% {
+    transform: translateY(-15px);
+    animation-timing-function: ease-out;
+  }
+}
+
+.button {
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.3em;
+  padding: 6px 28px;
+}
+.button-blue {
+  background-color: #2991B5;
+}
+.button-orange {
+  background-color: #F35E29;
+}
+
+.button:hover {
+  color: #fff;
+}
+.button-blue:hover {
+  background-color: #1B6B85;
+}
+.button-orange:hover {
+  background-color: #F35E29;
+}
+
+@media (max-width: 960px){
+  .wrapper {
+    height: 100vh;
+    display: table;
+    /* padding-bottom: ; */
+
+  }
+  .titulo-h1 {
+    padding: 50px 28px 0px 28px;
+    text-align: center;
+  }
+  .hero-img {
+    text-align: center;
+    margin: 25px auto;
+  }
+  .img-responsive {
+    width: 70%;
+    margin: auto 0px;
+  }
+  
+}
+@media (min-width: 962px) and (max-width: 998px) {
+  .img-responsive {
+    width: 50%;
+    margin: auto 0px;
+  }
+  .wrapper {
+    height: auto;
+    display: table;
+  }
+}
+
+

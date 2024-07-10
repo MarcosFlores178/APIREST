@@ -1,0 +1,193 @@
+/*Comienza la animación del zoom a la tarjeta*/
+.servicio {
+    transition: transform 0.3s ease;  
+}
+ 
+.servicio:hover {
+    transform: scale(1.1);
+}
+/*Termina la animación del zoom a la tarjeta*/
+ 
+ 
+.servicio h4 {
+    min-height: 3em; /* Ajusta la altura según tu diseño */
+}
+ 
+/* Crea margen inferior para el parrafo del titulo 2, para que no quede pegado a las cards */
+.parrafo{
+    margin-bottom: 3em; 
+ 
+}
+ 
+/* Crea margen inferior para separación de la fila superior e inferior de cards */
+.arriba{
+    margin-bottom: 1em; 
+    
+}
+ 
+/* Agregaba un padding arriba para los titulos de los servicios que no ocupaban 2 renglones */
+/* .singlelinea{
+    padding-top: 0.4em;
+} */
+ 
+ 
+/* Crea margen superior para separación del párrafo de cada servicio y su respectiva imagen */
+.container p  {
+    margin-top: 1em;  
+  }
+  
+  
+  /* Responsivo */
+  /* @media (max-width: 768px) {
+      .col-sm-4 {
+          flex: 0 0 100%;
+          max-width: 100%;
+      }
+  }
+  
+  @media (max-width: 992px) {
+      .col-sm-4 {
+          flex: 0 0 50%;
+          max-width: 50%;
+      }
+  } */
+
+  @media (max-width: 960px) {
+    .col-md-4 {
+        margin: 25px auto 25px;
+    }
+}
+  
+  /* Flexbox */
+  .row {
+      display: flex;
+      flex-wrap: wrap;
+  }
+  
+  .col-md-4 {
+      /* flex: 0 0 33.33%;
+      max-width: 33.33%; */
+      box-sizing: border-box;
+      padding: 0 15px;
+  }
+  
+  /* Estilo del contenedor */
+  .container {
+      margin: 0 auto;
+      padding: 0 15px;
+      max-width: 1140px;
+  }
+ 
+ 
+ 
+ /* COMIENZA LAS ANIMACIONES DE CADA CARD */
+.imagen-servicio1 {
+    width: 100%;
+    height: 175px;  
+    background-image: url('../src/images/devweb/two-professional-programmer-cooperating-working-600nw-2151852655.webp');  
+    background-size: cover;
+    background-position: center;
+    
+}
+.servicio:hover .imagen-servicio1 {
+    animation: cambioImagen1 8s infinite; /* Inicia la animación de cambio de imagen */
+}
+@keyframes cambioImagen1 {
+    25% { background-image: url('../src/images/devweb/profile-side-view-portrait-attractive-600nw-2148239031.webp'); }
+    50% { background-image: url('../src/images/devweb/what-computer-programming-jobs-offer-remote-work-jpg.webp'); }
+    75% { background-image: url('../src/images/devweb/istockphoto-1068734692-170667a.webp'); }
+    100% { background-image: url('../src/images/devweb/two-professional-programmer-cooperating-working-600nw-2151852655.webp'); }
+}
+ 
+.imagen-servicio2 {
+    width: 100%;
+    height: 175px;  
+    background-image: url('../src/images/seo/SEO-Friendly-Website-Principles.jpg');  
+    background-size: cover;
+    background-position: center;
+    
+}
+.servicio:hover .imagen-servicio2 {
+    animation: cambioImagen2 8s infinite; /* Inicia la animación de cambio de imagen */
+}
+@keyframes cambioImagen2 {
+    25% { background-image: url('../src/images/seo/tips-for-finding-SEO-expert-aca-web-consulting.jpeg'); }
+    50% { background-image: url('../src/images/seo/Seo-expert-skills-Digital-skilmaster.jpg'); }
+    75% { background-image: url('../src/images/seo/Google-SEO-3.jpg'); }
+    100% { background-image: url('../src/images/seo/SEO-Friendly-Website-Principles.jpg'); }
+}
+ 
+.imagen-servicio3 {
+    width: 100%;
+    height: 175px;  
+    background-image: url('../src/images/appweb/applications-of-computer-programming.jpg');  
+    background-size: cover;
+    background-position: center;
+    
+}
+.servicio:hover .imagen-servicio3 {
+    animation: cambioImagen3 8s infinite; /* Inicia la animación de cambio de imagen */
+}
+@keyframes cambioImagen3 {
+    25% { background-image: url('../src/images/appweb/93f97f93283843.Y3JvcCwyODc2LDIyNTAsNjQsMA.png'); }
+    50% { background-image: url('../src/images/appweb/How-to-find-the-Professional-Web-Developer-for-your-Business-Digital4design.jpg'); }
+    75% { background-image: url('../src/images/appweb/Web-and-App-Development-1024x684.jpg'); }
+    100% { background-image: url('../src/images/appweb/applications-of-computer-programming.jpg'); }
+}
+ 
+.imagen-servicio4 {
+    width: 100%;
+    height: 175px;  
+    background-image: url('../src/images/ux/1A130430518UserExperienceManager.jpg');  
+    background-size: cover;
+    background-position: center;
+    
+}
+.servicio:hover .imagen-servicio4 {
+    animation: cambioImagen4 8s infinite; /* Inicia la animación de cambio de imagen */
+}
+@keyframes cambioImagen4 {
+    25% { background-image: url('../src/images/ux/887.jpg'); }
+    50% { background-image: url('../src/images/ux/tes_uxi_blog_image_2-850x412.jpg'); }
+    75% { background-image: url('../src/images/ux/ux-job-2.jpg'); }
+    100% { background-image: url('../src/images/ux/1A130430518UserExperienceManager.jpg'); }
+}
+ 
+.imagen-servicio5 {
+    width: 100%;
+    height: 175px;  
+    background-image: url('../src/images/appmob/ANDR.jpg');  
+    background-size: cover;
+    background-position: center;
+    
+}
+.servicio:hover .imagen-servicio5 {
+    animation: cambioImagen5 8s infinite; /* Inicia la animación de cambio de imagen */
+}
+@keyframes cambioImagen5 {
+    25% { background-image: url('../src/images/appmob/steps_app_dev_comp_hire_cover.png'); }
+    50% { background-image: url('../src/images/appmob/20230315071535_best-cross-platform-mobile-app-development-services-company-in-india.jpg'); }
+    75% { background-image: url('../src/images/appmob/development-app.jpg'); }
+    100% { background-image: url('../src/images/appmob/ANDR.jpg'); }
+}
+ 
+ 
+.imagen-servicio6 {
+    width: 100%;
+    height: 175px;  
+    background-image: url('../src/images/soporte/Subject-IT-Support.webp');  
+    background-size: cover;
+    background-position: center;
+    
+}
+.servicio:hover .imagen-servicio6 {
+    animation: cambioImagen6 8s infinite; /* Inicia la animación de cambio de imagen */
+}
+@keyframes cambioImagen6 {
+    25% { background-image: url('../src/images/soporte/imageffa8x.jpg'); }
+    50% { background-image: url('../src/images/soporte/courses-section_6-img_1.webp'); }
+    75% { background-image: url('../src/images/soporte/technical-resources2x.jpg'); }
+    100% { background-image: url('../src/images/soporte/Subject-IT-Support.webp'); }
+}
+ 
+/* TERMINA LA ANIMACION DE CADA CARD */

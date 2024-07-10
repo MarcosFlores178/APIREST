@@ -1,0 +1,83 @@
+/* Estilos para la sección de contacto */
+#contacto {
+    padding: 50px 0;
+    background-color: #f9f9f9;
+}
+
+#contacto h2, #contacto .col-lg-6 h3 {
+    /* "contacto" y "ubicacion" */
+    color: #F35E29;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+
+#contacto p {
+    line-height: 1.6;
+    margin-bottom: 30px;
+    color: #555;
+}
+
+#contacto .container.text-left {
+    margin-bottom: 40px;
+}
+
+#contacto form {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#contacto form .form-control {
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 16px;
+    color: #495057;
+}
+
+#contacto form .form-control:focus {
+    border-color: #80bdff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.25);
+}
+
+#contacto form .form-textarea {
+    resize: vertical;
+}
+
+#contacto form .btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+    font-size: 18px;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+}
+
+#contacto form .btn-success:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+}
+
+#contacto form .btn-success:active {
+    background-color: #1e7e34;
+    border-color: #1c7430;
+}
+
+#contacto .map-responsive {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+}
+
+#contacto .map-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    border: 0;
+}
+

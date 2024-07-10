@@ -1,0 +1,64 @@
+body { 
+    padding-top: 75px; 
+    /* font-family: 'Nunito', sans-serif !important; */
+    font-family: 'Montserrat' !important;
+    color: #154352;
+  }
+  @media (max-width: 720px) {
+    body { 
+      padding-top: 20px; 
+    }
+  }
+  * {
+    box-sizing: border-box;
+  }
+  .navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+  }
+  header {
+    background-color: #f2f2f2;
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }
+  .max-width {
+    max-width: 1380px;
+  }
+  #servicios {
+    background-color: #fff;
+    padding-top: 3%;
+    padding-bottom: 3%;
+  }
+  #nosotros {
+    background-color: #f2f2f2;
+    padding-top: 3%;
+    padding-bottom: 3%;
+  }
+  #contacto {
+    background-color: #fff;
+    padding-top: 3%;
+    padding-bottom: 3%;
+  }
+  footer {
+    background: linear-gradient(180deg, #2991b5 0%, #1b6b85 100%);
+    color: #fff;
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }
+  #footer {
+    max-width: 1440px;
+  }
+  .ico-redes {
+    max-width: 280px;
+  }
+
+@media (max-width: 600px) {
+  .datos-footer {
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+  }
+  .ico-redes {
+    margin: auto;
+  }
+}
